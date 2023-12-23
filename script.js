@@ -122,7 +122,7 @@ function badge(badgeNo) {
       si.style.border = "2px solid black";
       si.style.backgroundColor="#fcc822";
       si.appendChild(newSpan);
-      ++badges;
+      ++badges; 
       return;
     }
     si.style.border = "none";
