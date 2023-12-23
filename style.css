@@ -151,17 +151,6 @@ ul:last-child {
   border: none;
 }
 
-.yellow-badge {
-  background-color: #fcc822;
-  cursor: pointer;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-inline: 30px;
-  padding-left: 7px;
-  border: none;
-}
 
 .yellow-badge > span {
   background-color: black;

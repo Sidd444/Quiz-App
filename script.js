@@ -120,10 +120,13 @@ function badge(badgeNo) {
   function toggle() {
     if (si.style.border != "2px solid black") {
       si.style.border = "2px solid black";
+      si.style.backgroundColor="#fcc822";
+      si.appendChild(newSpan);
       ++badges;
       return;
     }
     si.style.border = "none";
+    si.style.backgroundColor="rgb(209, 209, 209)";
     if (badges > 0) --badges;
   }
   toggle();
@@ -151,7 +154,7 @@ function howit(params) {
 }
 
 function about() {
-  alert("Author:- Aniket Khanagar");
+  alert("Author:- Siddhartha Bharali");
 }
 
 function feature() {
